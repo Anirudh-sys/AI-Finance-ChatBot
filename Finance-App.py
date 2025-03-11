@@ -284,7 +284,7 @@ if st.session_state.stock1_data and st.session_state.stock2_data:
                 st.write(f"No news found for {st.session_state.stock2_symbol}") # Inform user if no news
 
     with tab5:
-        st.subheader("Chat with Financial AI")
+        st.subheader("Chat with AI")
         
         # Chat history
         for msg in st.session_state.chat_history:
@@ -321,7 +321,3 @@ if st.session_state.stock1_data:
                 response = generate_chat_response(q)
                 st.session_state.chat_history.append({"role": "ai", "content": response})
             st.rerun()
-
-# Footer
-st.markdown("---")
-st.caption("Powered by Google Gemini, Yahoo Finance, and Finnhub | Created with Streamlit")
