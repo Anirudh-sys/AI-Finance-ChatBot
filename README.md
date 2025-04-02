@@ -1,33 +1,31 @@
 #  AI-Powered Stock Comparison Tool
 
-## 🚀 Live Demo  
+## Live Demo  
 Try the AI Finance Bot here: **[Live Demo](https://ai-finance-chatbot1.streamlit.app/)**
 
-## 📌 Description  
-The AI Finance Bot is an intelligent financial assistant that integrates AI capabilities with multiple financial APIs to provide real-time insights, answer queries, and assist users in making informed financial decisions. The bot is designed using **Retrieval-Augmented Generation (RAG)** to enhance responses with accurate and up-to-date financial data.  
+## Overview
+The AI Stock Comparison Tool is a financial analysis platform designed to consolidate stock-related data into a single interface, providing investors with a seamless and efficient way to compare multiple stocks. By integrating real-time stock market data, fundamental analysis, and interactive visualizations, this tool enables data-driven investment decision-making. 
 
-## ⚙️ Working  
-1. The user interacts with the bot via a **Streamlit**-powered UI.  
-2. The bot processes queries related to **stock prices, investment insights, and financial news**.  
-3. The **Google Gemini 2.0 Flash** model, enhanced with RAG, retrieves relevant financial data from APIs.  
-4. The AI model processes and analyzes the data to generate intelligent responses.  
-5. The bot provides real-time financial insights with **contextual accuracy**.  
+## Technologies Used
 
-## ✨ Features  
-- 🔍 **Real-time Financial Insights** – Fetches live stock market data.  
-- 📊 **Investment Analysis** – Provides AI-driven investment insights.  
-- 💬 **Conversational AI** – Uses **LLMs and NLP** for natural interaction.  
-- 📰 **Financial News Aggregation** – Fetches the latest financial reports.  
-- 📡 **API Integration** – Connects with **Yahoo Finance, Alpha Vantage, Finnhub, etc.**  
-- 🚀 **User-Friendly UI** – Built using **Streamlit** for a seamless experience.  
+The AI Stock Comparison Tool is built using a combination of modern technologies to ensure real-time data retrieval, AI-powered insights, and an interactive user experience. The following technologies are utilized in the development of the project:
 
-## 🛠️ Technologies Used  
-- **Programming Language:** Python  
-- **AI Model:** Google Gemini 2.0 Flash with Retrieval-Augmented Generation (RAG)  
-- **APIs:** Google [Gemini], Yahoo Finance, Finnhub
-- **Framework:** Streamlit for UI  
+1.	**Programming Language:** Python – Used for backend logic, API integration, and AI chatbot interaction.
+2.	**AI Model:** Google Gemini 2.0 – Powers the AI chatbot for stock-related queries and insights.
+3.	**APIs:**
+    - **Google Gemini API** – Provides AI-driven financial analysis and responses.
+    - **Yahoo Finance API** – Fetches real-time stock prices, historical data, and financial metrics.
+    - **Finnhub API** – Supplies market trends, financial statements, and company fundamentals.
+4.	**Framework:** Streamlit – Used to build the interactive user interface for stock comparison and visualization.
 
-## 🏗️ Project Structure  
+## Features
+- **Real-time stock data:** Fetches stock prices, historical performance, and key financial indicators via financial APIs.
+- **AI-powered insights:** Utilizes an AI chatbot to answer queries, provide stock analysis, and generate investment insights.
+- **Comparative stock analysis:** Evaluates multiple stocks based on financial fundamentals, valuation metrics, and performance trends.
+- **Interactive charts:** Displays historical stock data and market trends for easy visualization.
+- **News integration:** Aggregates financial news updates related to selected stocks.  
+
+## Project Structure  
 ```
 AI-Finance-Bot/
 │── .env                     # Environment variables for API keys  
@@ -36,28 +34,44 @@ AI-Finance-Bot/
 │── README.md                
 ```  
 
-## 🧠 About the AI Model  
-The AI Finance Bot utilizes **Google Gemini 2.0 Flash**, a large language model optimized for financial queries. The model integrates **Retrieval-Augmented Generation (RAG)** to fetch and process real-time financial data, ensuring accuracy and relevance.  
+## About the AI Model  
 
-## 🚀 Getting Started  
+The AI Stock Comparison Tool leverages **Google Gemini 2.0 Flash**, a cutting-edge language model optimized for financial analysis. It integrates real-time data retrieval and multimodal processing, enabling dynamic stock comparisons based on fundamental metrics, market trends, and AI-driven insights. With advanced reasoning and streaming capabilities, the model ensures fast, accurate, and context-aware financial recommendations.
 
-### 🔧 Setup and Installation  
-1. **Clone the repository:**  
-   ```bash  
-   git clone https://github.com/Anirudh-sys/AI-Finance-ChatBot.git  
+## Installation
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/Anirudh-sys/AI-Finance-ChatBot.git
    cd AI-Finance-Bot-main
    ```  
-2. **Install dependencies:**  
-   ```bash  
-   pip install -r requirements.txt  
+2. **Create a virtual environment (optional but recommended)**  
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```  
-3. **Set up API keys** in a `.env` file:  
-   ```
-   GOOGLE_API_KEY=your_google_api_key
-   FINNHUB_API_KEY=your_finnhub_api_key
+3. **Install dependencies**  
+   ```bash
+   pip install -r requirements.txt
    ```  
-4. **Run the application using Streamlit:**  
-   ```bash  
-   streamlit run Finance-App.py  
+4. **Run the Streamlit app**  
+   ```bash
+   streamlit run Finance-App.py
    ```  
-"# AI-Finance-ChatBot" 
+## Future Enhancements
+
+**1.Advanced AI Capabilities:**
+
+**AI Sentiment Analysis** – Analyze stock-related news and earnings reports using Natural Language Processing (NLP) to determine market sentiment (positive, neutral, or negative).
+**Personalized AI Recommendations** – Allow users to set investment preferences (e.g., risk tolerance, goals) and receive customized stock recommendations from the AI chatbot.
+
+**2.Real-Time Market Monitoring & Alerts:**
+
+**Stock Price Alerts** – Send real-time notifications when a stock reaches a predefined price level, helping users track opportunities.
+
+**3.Expanded Data Integration:**
+
+**More Financial Metrics** – Include additional technical indicators like ROE, ROA, Debt-to-Equity Ratio, RSI, and Moving Averages to enhance stock analysis.
+**Global Market Coverage** – Expand the tool to support international stock exchanges, including NASDAQ, London Stock Exchange, and Tokyo Stock Exchange.
+
+
