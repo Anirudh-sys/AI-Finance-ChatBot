@@ -73,6 +73,7 @@ The AI Stock Comparison Tool leverages **Google Gemini 2.0 Flash**, a cutting-ed
 **3.Expanded Data Integration:**
 
 **More Financial Metrics** – Include additional technical indicators like ROE, ROA, Debt-to-Equity Ratio, RSI, and Moving Averages to enhance stock analysis.
+
 **Global Market Coverage** – Expand the tool to support international stock exchanges, including NASDAQ, London Stock Exchange, and Tokyo Stock Exchange.
 
 
