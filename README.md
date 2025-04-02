@@ -63,6 +63,7 @@ The AI Stock Comparison Tool leverages **Google Gemini 2.0 Flash**, a cutting-ed
 **1.Advanced AI Capabilities:**
 
 **AI Sentiment Analysis** – Analyze stock-related news and earnings reports using Natural Language Processing (NLP) to determine market sentiment (positive, neutral, or negative).
+
 **Personalized AI Recommendations** – Allow users to set investment preferences (e.g., risk tolerance, goals) and receive customized stock recommendations from the AI chatbot.
 
 **2.Real-Time Market Monitoring & Alerts:**
